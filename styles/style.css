@@ -1,0 +1,165 @@
+body{
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    background-color: #ffb400;
+    color: #6c3c2a;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    padding: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #6c3c2a;
+}
+
+nav ul li a:hover {
+    color: red;
+}
+
+#home {
+    background-image: url("../imagens/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 91vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#home img {
+    margin-left: -100px;
+}
+
+#home .content {
+    margin-left: 50px;
+}
+
+#home .content > * {
+    margin: 10px 0;
+}
+
+#home .content h2 {
+    font-size: 1.3em;
+}
+
+#home .content h3 {
+    font-size: 2em;
+}
+
+.home-button{
+    background-color: #f5c555;
+    border-radius: 20px;
+    padding: 10px;
+    border: 1px solid #ffcb00;
+    box-shadow: 0 0 5px #444;
+}
+
+.home-button:hover{
+    background-color: #ecb431;
+}
+
+#produtos {
+    background-color: #fed843;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#produtos h2 {
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+#produtos-content{
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#img-produtos-content {
+    margin-top: 30px;
+    width: 70vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#img-produtos-content img {
+    border: 2px solid #555;
+    border-radius: 15px;
+    box-shadow: 0 0 5px #444;
+}
+
+#img-produtos-content img:hover {
+    border: 2px solid #555;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #fa5528;
+}
+
+#contato {
+    background-color: #fa5528;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+#contato form{
+    display: flex;
+    flex-direction: column;
+}
+
+#contato input{
+    /* width: 200px; */
+    /* height: 20px; */
+    border-radius: 10px;
+    border: 1px solid;
+}
+
+#contato form div input{
+    width: 250px;
+    /* height: 20px; */
+    border-radius: 10px;
+    border: 1px solid;
+}
+
+#contato label {
+    margin-top: 15px;
+}
+
+.input-button{
+    margin-top: 15px;    
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #ffb400;
+    color: #6c3c2a;
+}
